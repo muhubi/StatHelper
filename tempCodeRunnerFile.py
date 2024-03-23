@@ -1,1 +1,0 @@
-tatistics.pstdev
