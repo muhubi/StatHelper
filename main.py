@@ -1,6 +1,6 @@
 import numpy
 
-class StatHelper_file_import:
+class stathelper_file_import:
     #opens the file
     input_file = open("input_data.txt")
     #reads the file
@@ -16,5 +16,5 @@ class StatHelper_file_import:
     print(data_input_list)
 
 
-class StatHelper_input_list:
+class stathelper_input_list:
     
