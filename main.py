@@ -1,12 +1,16 @@
 import numpy
 
 class StatHelper:
-    test_file = open("input_data.txt")
+    #opens the file
+    input_file = open("input_data.txt")
+    #reads the file
+    data_input_file = input_file.read()
+    #makes a list of the data from the file
+    data_input_list = data_input_file.split("\n")
+    #closes the file to save resources
+    input_file.close()
     
-    data_test_file = test_file.read()
-    
-    data_test_list = data_test_file.split("\n")
-    test_file.close()
-    
-    data_test_list.sort()
-    print(data_test_list)
+    #sorts the list
+    data_input_list.sort()
+    #prints the sorted list
+    print(data_input_list)
